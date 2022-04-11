@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&family=Merriweather&family=Noto+Sans+KR:wght@500&family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === GENERAL STYLES ===
+FONTS
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+========================*/
+
+/* body {
+    background: url("https://images.unsplash.com/photo-1432251407527-504a6b4174a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80");
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+} */
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1432251407527-504a6b4174a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+/*=======================
+        HEADER 
+=======================*/
+
+nav {
+    background: #004A50;
+    padding: 1em;
+}
+
+nav img {
+    width: 2%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 1em 3em;
+    text-shadow: 5px 5px #000;
+}
+
+h2 {
+    font-size: 3em;
+    margin: -2em 0 0 23em;
+    text-shadow: 5px 5px #000;
+}
+
+h1:hover,h2:hover {
+    color: #000;
+    text-shadow: 5px 5px #fff;
+}
+
+header ul {
+    text-align: left;
+    margin: 0 40em;
+}
+
+/*=======================
+        MAIN 
+=======================*/
+
+table {
+    background: #fff;
+    color: #000;
+    margin: 8em 30em;
+    width: 50em;
+    font-family: Helvetica;
+    text-align: left;
+    padding: 1em;
+    line-height: 2em;
+}
+
+table th {
+    font-weight: normal;
+}
+
+table thead tr th {
+    border-bottom: 3px solid #003C7E;
+    text-transform: uppercase;
+}
+
+/* UNTERSCHIED GIT & GITHUB */
+main section:nth-of-type(1) {
+    background: #fff;
+    color: #000;
+    width: 30em;
+    padding: 2em 1em;
+    margin: 30em 0 5em 10em;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 3px solid #003C7E;
+}
+
+main section:nth-of-type(1) ul {
+    list-style: none;
+    line-height: 2em;
+    margin: 1em 0 0 1.5em;
+}
+
+/* IMAGE */
+/* article {
+    height: 100vh;
+    background: url("../img/icons8-shark-64.png");
+    background-size: 20em;
+    background-position: right;
+    background-repeat: no-repeat;
+} */
+
+article img {
+    width: 20%;
+    margin: -20em 0 0 60em;
+}
+
+/* ABBREVS */ 
+
+main section:nth-of-type(2) {
+    background: #fff;
+    color: #000;
+    width: 40em;
+    padding: 2em 1em;
+    margin: 20em 0 0 60em;
+}
+
+main section:nth-of-type(2) ul {
+    list-style: none;
+    line-height: 2em;
+    margin: 1em 0 0 1.5em;
+}
+
+main section:nth-of-type(2) span {
+    font-weight: bold;
+}
+
+/*=======================
+        FOOTER 
+=======================*/
+
+footer {
+    text-align: center;
+    background: #004A50;
+    margin: 10em 0 0 0;
+    padding: 1em;
+}
