@@ -71,7 +71,8 @@ h2 {
     text-shadow: 5px 5px #000;
 }
 
-h1:hover,h2:hover {
+h1:hover,
+h2:hover {
     color: #000;
     text-shadow: 5px 5px #fff;
 }
@@ -119,23 +120,20 @@ h3 {
     border-bottom: 3px solid #003C7E;
 }
 
+/* KOREAN */
+span {
+    font-size: 1.5em;
+}
+
 main section:nth-of-type(1) ul {
-    list-style: none;
+    /* list-style: none; */
     line-height: 2em;
     margin: 1em 0 0 1.5em;
 }
 
-/* IMAGE */
-/* article {
-    height: 100vh;
-    background: url("../img/icons8-shark-64.png");
-    background-size: 20em;
-    background-position: right;
-    background-repeat: no-repeat;
-} */
-
+/* SHARK */
 article img {
-    width: 20%;
+    width: 10%;
     margin: -20em 0 0 60em;
 }
 
@@ -149,14 +147,34 @@ main section:nth-of-type(2) {
     margin: 20em 0 0 60em;
 }
 
+main section:nth-of-type(3) ul,
 main section:nth-of-type(2) ul {
-    list-style: none;
+    /* list-style: none; */
     line-height: 2em;
     margin: 1em 0 0 1.5em;
 }
 
-main section:nth-of-type(2) span {
-    font-weight: bold;
+main section:nth-of-type(3) {
+    background: #fff;
+    color: #000;
+    width: 40em;
+    padding: 2em 1em;
+    margin: 20em 0 50em 10em;
+}
+
+/* AUDIO BECAUSE WHY NOT */
+.container-audio {
+    width: 66%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: red; */
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+}
+audio {
+    width:100%;
 }
 
 /*=======================
@@ -164,6 +182,7 @@ main section:nth-of-type(2) span {
 =======================*/
 
 footer {
+    font-size: 0.5em;
     text-align: center;
     background: #004A50;
     margin: 10em 0 0 0;
